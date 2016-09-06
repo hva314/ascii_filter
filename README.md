@@ -1,7 +1,7 @@
 Ascii Filter
 ============
 
-Pick all the ascii password in a large dictionary -> write to a new file
+Pick all the ascii passwords in a large dictionary -> write to a new file
 
 ### Usage
 
