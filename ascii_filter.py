@@ -12,8 +12,8 @@ for i in range(1,len(lst)):
     print()
     print(str(i)+". Collecting data from "+lst[i]+"...")
 
-    f = os.popen("sed -n '$=' "+file_name)
-    num_line = int(f.read())
+    f = os.popen("wc -l "+file_name)
+    num_line = int((str(f.read()).split())[0])
 
     print("Done!")
     print("Line numbers:", num_line)
